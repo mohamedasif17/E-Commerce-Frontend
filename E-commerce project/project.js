@@ -1,0 +1,1 @@
+let openshopping=document.querySelector('');
