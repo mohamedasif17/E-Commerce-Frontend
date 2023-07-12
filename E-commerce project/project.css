@@ -1,0 +1,505 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+.page{
+    height:auto;
+    width: 100%;
+    border: solid green 2px;
+    
+} 
+
+
+ /*head tag */
+.head{
+    border: solid black 2px;
+        height:130px;
+        width: 100%; 
+        position:relative; 
+        background-color:#05445E;
+        
+}
+
+/* a href */
+
+#notifi{
+    border:none;
+    position: absolute;
+    right: 90px;
+    top:5px;
+    
+
+}
+
+#menubar{
+    height: 20px;
+    width: 30px;
+    border:none;
+    position: relative;
+    left: 700px;
+    bottom: 15px;
+    
+    
+
+}
+
+#bell,#cartdown{
+    margin-left: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+#bell,#cartdown:hover{
+                cursor: pointer;
+
+}
+
+
+/*a href tag text */
+a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+
+/* logo head */
+
+#logo{
+    height:100px;
+    width: 100px;
+    position:absolute;
+    left: 20px;
+    top:15px;
+
+
+}
+
+/*header text*/
+
+#ad{
+    
+    font-size: 40px;
+    color: aliceblue;
+    position: relative;
+    
+    
+
+
+    
+}
+
+/* nav scroll */
+
+#scroll{
+    border: solid black 2px;
+    height:200px;
+    position: relative;
+    top: 10px;  
+    
+}
+
+
+
+
+#sweetoffer{
+            height: 250px;
+            width: 100%;
+}
+
+#sweetoffer:hover{
+    cursor: pointer;
+}
+
+#leftarrow{
+    font-size: 35px;
+    position: relative;
+    bottom: 130px;
+}
+
+#rightarrow{
+    font-size: 35px;
+    position: relative;
+    bottom: 130px;
+    left: 1434px;
+}
+
+/* catagories */
+
+.catagories{
+            border: 2px solid black;
+            height:720px;
+            width: 1400px;
+            position:relative;
+            left:40px;
+            top: 20px;
+}
+
+/* catagories text */
+
+.catagoriestext{
+            
+    border: 2px solid black;
+    position: relative;
+    
+    
+
+}
+
+.indian{
+        border: 2px solid black;
+        height: 628px;
+        width: 400px;
+        position:relative;
+        bottom: 20px;
+        right: 20px;
+         
+}
+
+.indian:hover{
+    cursor: pointer;
+}
+
+.indo{
+        border: 2px solid black;
+        height: 200px;
+        width: 880px;
+        float: right;
+        position:relative;
+        right: 100px;       
+}
+
+.indo:hover{
+    cursor: pointer;
+}
+
+
+.usa{
+    border: 2px solid black;
+    height: 200px;
+    width: 880px;
+    float: right;
+    position:relative;
+    top: 10px;
+    right: 100px;
+    
+} 
+
+.usa:hover{
+    cursor: pointer;
+}
+
+
+.tur{
+    border: 2px solid black;
+    height: 200px;
+    width: 880px;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    
+}
+
+.tur:hover{
+    cursor: pointer;
+}
+
+
+
+/*catogories img */
+
+#ind,#indo,#us,#turk{
+        height: 100%;
+        width: 100%;
+
+}
+
+/*catogories img text*/
+
+.indiantext{
+            position:absolute;
+            bottom: 18px;
+            left:150px;   
+            color:white;
+            font-size: 20px;
+}
+
+.indotext,.ustext,.turtext{
+    position:absolute;
+    bottom: 18px;
+    left:400px;   
+    color:white;
+    font-size: 20px;
+}
+
+/*explore div */
+
+.explore{
+        position: relative;
+        border: 2px solid black;
+        height: auto;
+        width: auto;
+        top: 80px;
+        
+    
+    }
+
+    /*explore article*/
+
+    article{
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+            float: left;
+    }
+
+    /*top explore div */
+
+    .top{
+        border: 2px solid black;
+        height:1403px;
+            width: 1200px;
+            position:relative;
+            left:140px;
+            top: 40px;
+    }
+
+    .topexploretext{
+            
+        border: 2px solid black;
+        position: static;
+
+        
+    
+    }
+        /*explore article*/
+    .exploreitm{
+            
+            height: 400px;
+            width: 300px;
+            border-radius: 40px;
+            position: relative;
+            float: left;
+            left: 80px;
+            border: 2px solid black;
+    }
+
+    /*explore article img*/
+    #expimg{
+        height: 150px;
+        width: 300px;
+        border-radius: 40px;
+        position: static;
+        top: 15px;
+        left: 20px;
+    }
+
+    /*explore h1*/
+
+    .exph{
+        font-size: 30px;
+        font-style:italic;
+        position: relative;
+        bottom: 3px;
+        text-align: center;
+
+    }
+
+    /*hr explore */
+
+    .tophr{
+        left: 50px;
+        width: 200px;
+        border-top: 2px solid grey;
+        position: relative;
+        bottom: 15px;
+    }
+
+    /*region  */
+
+    .region{
+        font-size: 17px;
+        position: relative;
+        text-align: center;
+        bottom: 15px;
+    }
+
+     /*cost  */
+
+    
+    .cost{
+        
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        bottom: 15px;
+    }
+
+    /* cart */
+
+    .cart{
+        background-color: coral;
+        font-size: 25px;
+        position: relative;
+        left: 65px;
+        bottom: 15px;
+        border-radius: 9px;
+        
+
+    }
+
+    .cart:hover{
+        cursor: pointer;
+    }
+
+    /* footer */
+
+    .footer{
+            border: 2px solid black;
+            height: 250px;
+            width: 1517px;
+            position: relative;
+            top: 50px;
+            background-color:rgb(9, 9, 81);
+
+    }
+
+    /* follow us */
+
+    .followus{
+            color: rgb(237, 237, 118);
+            font-size: 25px;
+            position: relative;
+            top: 20px;
+            left: 30px;
+    }
+
+    /*icon */
+
+    #insta{
+        font-size: 60px;
+        left: 10px;
+        position: relative;
+        margin-left: 50px;
+        color: aliceblue;
+        top: 20px;
+        transition: 2.1s;
+    }
+
+    
+    #fb{
+        font-size: 60px;
+        left: 10px;
+        position: relative;
+        margin-left: 50px;
+        color: aliceblue;
+        top: 20px;
+        transition: 2.1s;
+    }
+
+    
+    #twitter{
+        font-size: 60px;
+        left: 10px;
+        position: relative;
+        margin-left: 50px;
+        color: aliceblue;
+        top: 20px;
+        transition: 2.1s;
+    }
+
+    #insta:hover{
+            cursor: pointer;
+            color: #ed5ac1;
+
+    }
+
+    
+    #fb:hover{
+        cursor: pointer;
+        color: #5e1ef3;
+
+}
+
+#twitter:hover{
+    cursor: pointer;
+    color:aqua;
+
+}
+
+
+
+    #location{
+        
+        color: rgb(237, 237, 118);
+        font-size: 60px;
+        position: relative;
+        bottom: 50px;
+        left: 750px;
+        
+    
+    }
+    
+    /* address */
+
+    .address{
+        font-size: 20px;
+        color: aliceblue;
+        position: relative;
+        bottom: 50px;
+        left: 1070px;
+
+    }
+
+    /* cc adirai */
+
+    #cc{
+        
+        font-size: 25px;
+        color: aliceblue;
+        position: relative;
+        bottom: 5px;
+        left: 590px;
+
+    }
+
+    /* add to cart icon */
+
+    #cartic{
+
+            color:black;
+            font-size: 25px;
+    }
+
+    /* menucaanvas */
+
+    #menucanvas{
+            text-decoration-line: none;
+            color: black;
+            
+    }
+
+    #about{
+        color:black;
+        font-size: 40px;
+        height: 30px;
+        width: 30px;
+        border: black 2px;
+
+        margin-top: 360px;
+    }
+
+    #menubtn{
+        color: white;
+        font-size: 30px;
+    }
+
+    
